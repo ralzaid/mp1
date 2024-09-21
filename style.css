@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    width: 80%;
+    background-image: radial-gradient(circle, #e7efff, #ffcadf);
+    font-family: 'Georgia', serif;
+    text-align: center;
+    margin: auto;
+    color: rgb(15, 58, 96);
+}
+
+header{
+    text-align: left;
+    background-color: #e7efff;
+    padding: 1% 0;
+    margin-bottom: 2%;
+}
+
+h1{
+    font-family: 'Georgia', serif;
+    margin: 3%;
+    color: #c80071;
+    font-size: calc(90% + 1.5em);
+}
+
+img{
+    margin: 2%;
+}
+
+h2{
+    margin: 3% 0%;
+    font-size: calc(70% + 1.5em);
+
+}
+
+td, p{
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: calc(5% + 1em);
+}
+
+td{
+    margin: 2%;
+}
+
+li a{
+    text-decoration: none;
+    background-color: #c80071;
+    color: #e7efff;
+    display: inline-block;
+    padding: 5% 10%;
+    border-radius: 5px;
+    margin: 1%;
+}
+
+
+table{
+    margin: 5%;
+    margin:auto;
+}
+
+
+td{
+    text-align: left;
+    padding: 2%;
+}
+
+/* ul li {
+    display: inline;
+} */
+
+
+h3{
+    font-size: calc(5px + 1em);
+    margin: 20%;
+}
+
+
+form{
+    width: 100%;
+}
+
+button{
+    margin-bottom: 5%;
+    background-color: #c80071;
+    padding: 2% 5%;
+    border-radius: 3px;
+    margin: 1%;
+
+}
+
+img {
+    max-width: 40%;
+}
+
+footer{
+    width: 100%;
+    padding: 3%;
+    margin: 3% 0 0 0;
+    background-color: #c80071;
+}
+body{
+    width: 100%;
+}
+nav{
+    width: 30%;
+
+}
+main{
+    width: 70%;
+}
+p{
+    padding: 5%;
+}
+#container{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    /* margin-bottom: 30%;
+    margin-right: 10%; */
+    justify-content: space-between;
+}
+
+ul li{
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+}
+
+.sub{
+    font-style: italic;
+    padding: 0;
+    margin: 2%;
+}
+.title{
+    margin: 0;
+}
+
+.skills{
+    margin-bottom: 5%;
+}
+
+ol{
+    text-align: left;
+
+}
+
+h4{
+    margin-top: 5%;
+    text-align: left;
+}
+@media screen and (max-width: 750px) {
+    body{
+        width: 100%;
+    }
+    nav{
+        width: 100%;
+
+    }
+    main{
+        width: 100%;
+    }
+    p{
+        padding: 5%;
+    }
+    #container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    ul li{
+        display: inline;
+        margin: 1% 0;
+        padding: 0;
+        font-size: calc(2% + 0.5em);
+
+    }
+    header{
+        text-align: center;
+    }
+
+    .nav{
+        /* display: flex; */
+        justify-content: space-between;
+        flex-direction: row;
+
+    }
+    
+
+}

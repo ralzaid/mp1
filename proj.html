@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Specifies the character encoding for the HTML document -->
+        <meta charset="UTF-8">
+        
+        <!-- Link to external CSS stylesheet for styling the page -->
+        <link rel="stylesheet" href="style.css">
+        
+        <!-- Title of the webpage displayed on the browser tab -->
+        <title>Projects | Resume</title>
+    </head>
+    <body>
+        <!-- Header section with the main title of the resume page -->
+        <header>
+            <h1>Rafal Alzaid's Resume</h1>
+        </header>
+        
+        <!-- Main container for the page content -->
+        <div id="container">
+            <!-- Navigation menu -->
+            <nav>
+                <ul class="nav">
+                    <!-- Navigation links to different pages of the website -->
+                    <li class="nav"><a href="index.html">Home</a></li>
+                    <li class="nav"><a href="edu.html">Education</a></li>
+                    <li class="nav"><a href="exp.html">Experience</a></li>
+                    <li class="nav"><a href="skills.html">Skills</a></li>
+                    <li class="nav"><a href="proj.html">Projects</a></li>
+                    <li class="nav"><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </nav>
+            
+            <!-- Main content area for the calculator project -->
+            <main>
+                <!-- Calculator heading -->
+                <h2>Calculator</h2>
+                
+                <!-- Input fields for entering numbers -->
+                <input type="text" id="box1" placeholder="Enter first number">
+                <br>
+                <input type="text" id="box2" placeholder="Enter second number">
+                <br>
+                
+                <!-- Buttons for calculator operations -->
+                <button class="buttons" type="button" onclick="doAdd()">+</button>
+                <button class="buttons" type="button" onclick="doSubtract()">-</button>
+                <button class="buttons" type="button" onclick="doDivide()">/</button>
+                <button class="buttons" type="button" onclick="doMultiply()">*</button>
+                <button class="buttons" type="button" onclick="doPower()">^</button>
+                <br>
+                
+                <!-- Input field for displaying the result -->
+                <input type="text" id="box3" placeholder="Result">
+                <br>
+                
+                <!-- Button to clear all inputs and result -->
+                <button class="buttons" type="button" onclick="doClear()">Clear</button>
+            </main>
+        </div> <!-- Closing the main container div -->
+        
+        <!-- Footer section with copyright information -->
+        <footer>
+            <p>All rights reserved to Rafal Alzaid. <a href="credits.html">Credits</a> &#169;.</p>
+        </footer>
+        
+        <!-- Link to external JavaScript file for calculator functionality -->
+        <script src="script.js"></script>
+    </body>
+</html>
